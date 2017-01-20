@@ -10,11 +10,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.FilterType;
 import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 
 @Configuration
-@ComponentScan(basePackages="collabarationbackend")
+@ComponentScan(basePackages={"collabarationbackend"},
+excludeFilters =@ComponentScan.Filter(value=Configuration.class,type=FilterType.ANNOTATION))
 public class ApplicationContextConfig {
 	
 	@Bean(name="dataSource")

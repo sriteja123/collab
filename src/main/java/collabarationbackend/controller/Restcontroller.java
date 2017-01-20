@@ -37,7 +37,8 @@ public class Restcontroller {
 	
 	
 	 //create user
-	 @RequestMapping(value = "/user/", method = RequestMethod.POST)
+	
+	@RequestMapping(value = "/user/", method = RequestMethod.POST)
 	    public ResponseEntity<Void> createUser(@RequestBody usercollab user,    UriComponentsBuilder ucBuilder) {
 	        System.out.println("Creating User " + user.getUsername());
 	  
