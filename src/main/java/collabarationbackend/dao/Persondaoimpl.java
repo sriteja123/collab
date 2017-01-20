@@ -52,7 +52,6 @@ public class Persondaoimpl  implements Persondao {
 		Session session=sessionFactory.getCurrentSession();
 		session.saveOrUpdate(user);
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override

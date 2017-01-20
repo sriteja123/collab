@@ -28,7 +28,7 @@ public class ApplicationContextConfig {
 		dataSource.setUsername("collabo");
 		dataSource.setPassword("sriteja123");
 		
-		return dataSource;
+	return dataSource;
 		
 	}
 	

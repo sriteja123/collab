@@ -57,7 +57,6 @@ public class QueryDaoImpl implements QueryDao {
 		session.delete(query);
 		
 		// TODO Auto-generated method stub
-		
 	}
 
 	

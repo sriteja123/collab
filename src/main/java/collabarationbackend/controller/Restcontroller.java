@@ -25,6 +25,7 @@ public class Restcontroller {
 	
 	
 	//retrieve all users
+	
 	@RequestMapping(value = "/user/", method = RequestMethod.GET)
 	    public ResponseEntity<List<usercollab>> listAllUsers() {
 	        List<usercollab> users = userDAO.listUsers();

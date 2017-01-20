@@ -20,6 +20,7 @@ import collabarationbackend.model.Query;
 @RestController
 public class QueryRestController {
 	
+	
 	@Autowired
 	QueryDao querydao;
 	

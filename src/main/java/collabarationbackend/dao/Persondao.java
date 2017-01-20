@@ -12,7 +12,4 @@ public interface Persondao {
 	public usercollab getUserByUsername(String username);
 	public List<usercollab> listUsers();
 	
-	
-	
 }
-

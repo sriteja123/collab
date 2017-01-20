@@ -13,7 +13,7 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 		// TODO Auto-generated method stub
 		return null;
 	}
-
+	
 	protected String[] getServletMappings() {
 		
 		return new String[]{"/"};

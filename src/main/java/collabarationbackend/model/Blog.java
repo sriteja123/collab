@@ -25,7 +25,6 @@ public class Blog {
 		
 		public void setDate(String data) {
 			
-			
 		}
 		public int getBlog_id() {
 			return bid;

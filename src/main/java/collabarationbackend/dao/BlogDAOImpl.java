@@ -31,7 +31,7 @@ public class BlogDAOImpl implements BlogDAO {
 		System.out.println("session="+session);
 		session.saveOrUpdate(blog);
 		System.out.println("data successfully saved");
-	}
+}
 	
 	public List<Blog>viewBlogs() {
 		Session session = sessionFactory.getCurrentSession();

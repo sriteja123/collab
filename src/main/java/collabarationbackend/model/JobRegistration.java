@@ -46,8 +46,7 @@ public class JobRegistration {
 	public void setCertificatenum(String certificatenum) {
 		this.certificatenum = certificatenum;
 	}
-	
-	}
+}
 	
 	
 

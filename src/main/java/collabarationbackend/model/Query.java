@@ -34,8 +34,7 @@ public class Query {
 		this.questDescription = questDescription;
 	}
 	
-		
-	}
+}
 	
 	
 	

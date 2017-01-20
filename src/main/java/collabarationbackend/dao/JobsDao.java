@@ -12,5 +12,4 @@ public interface JobsDao {
 	void updatejob(Jobs job);
 	Jobs viewjob(int id);
 	void registerjob(JobRegistration jobRegistration);
-
 }

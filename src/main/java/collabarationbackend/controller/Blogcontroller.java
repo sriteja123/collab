@@ -50,7 +50,7 @@ public class Blogcontroller {
 		        @SuppressWarnings("unused")
 		        HttpHeaders headers = new HttpHeaders();
 		        headers.setLocation(ucBuilder.path("/user/{id}").buildAndExpand(blog.getBlog_id()).toUri());
-		        return new ResponseEntity<Void>(headers, HttpStatus.CREATED);
+		       return new ResponseEntity<Void>(headers, HttpStatus.CREATED);
 		    }
 		
 		//delete a blog

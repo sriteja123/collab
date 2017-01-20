@@ -23,7 +23,6 @@ public class JobsDaoImpl implements JobsDao{
 		Session session=SessionFactory.getCurrentSession();
 		session.save(job);
 		// TODO Auto-generated method stub
-		
 	}
 
 	

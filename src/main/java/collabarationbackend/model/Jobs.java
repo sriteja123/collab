@@ -75,12 +75,4 @@ public class Jobs {
 		this.urlofthecompany = urlofthecompany;
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-
 }

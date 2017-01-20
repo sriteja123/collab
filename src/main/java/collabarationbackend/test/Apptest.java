@@ -44,5 +44,5 @@ public class Apptest
 		  blog.setBlogDescription("Angular js is pouplar");
 	       System.out.println("main ended");
 	        */
-   }
+	}
 }

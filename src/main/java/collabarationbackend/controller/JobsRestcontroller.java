@@ -59,8 +59,9 @@ public class JobsRestcontroller {
 				System.out.println("inside update query");
 		  
 				jobsdao.updatejob(jobs);
-		        
+		       
 		    }
+			
 			//delete a jobs
 			
 			@RequestMapping(value = "/jobs/{jobid}", method = RequestMethod.DELETE)

@@ -11,5 +11,4 @@ public interface QueryDao {
 	void updatequery(Query query);
 	void deletequery(int qid);
 	Query getquery(int qid);
-
 }
